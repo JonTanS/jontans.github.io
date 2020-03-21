@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Jonathan Tan's Github Site
 
-You can use the [editor on GitHub](https://github.com/JonTanS/jontans.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A little bit about me, I'm a Deep Learning Engineer currently at Amazon AI. I wanted to create a github page to index things that I have done from algorithms to mathematical proofs!
 
 ### Markdown
 
@@ -35,3 +33,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+You can use the [editor on GitHub](https://github.com/JonTanS/jontans.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
