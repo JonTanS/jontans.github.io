@@ -2,3 +2,5 @@ name: Jonathan Tan, Software Engineer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-tactile
+
+mathjax: true

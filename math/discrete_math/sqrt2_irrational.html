@@ -1,0 +1,64 @@
+---
+layout: default
+title: Prove the $ \sqrt{2} $ is Irrational
+mathjax: true
+---
+
+<div>
+    <p>
+    This is one of the classic proofs by contradiction. The general flow of using this technique
+    is to first assume the opposite and then sort of play around and go down a path that will eventually
+    show that this is not true.
+    </p>
+
+    <h1>Prove that the $ \sqrt{2} $ is Irrational</h1>
+    <p>
+        We start off with assuming the opposite: Suppose $ \sqrt{2} $ is rational.
+
+        This means that we can rewrite this as the ratio of two integers <strong>a</strong> and <strong>b</strong> such that:
+        $$ \sqrt{2} = \frac{a}{b} $$
+
+        and by definition of a rational number, <strong>a</strong> and <strong>b</strong> will have no common factors.
+        Now we square both sides and get:
+        
+        $$ 2 = \frac{a^2}{b^2} $$
+
+        Multiplying both sides by $ b^2 $, we have:
+        $$ 2b^2 = a^2 $$
+
+        At this point, we now need to show that both sides have common factors to find the contradition.
+        Observing the equation, we know that <strong>a</strong> has to be even. Why? We look at the left hand side.
+    </p>
+    
+    <ul>
+        <li>2 is an even number</li>
+        <li>$ b^2 $ can either be odd or even</li>
+        <li>An even number times any number comes out to be even!</li>
+    </ul>
+
+    <p>
+        Thus $ a^2 $ is even and that means <strong>a</strong> is also even. 
+
+        <br>
+        Now we can introduce a variable <strong>k</strong> to replace <strong>a</strong> and multiply it by
+        2 to keep the even property of <strong>a</strong>.
+
+        $$ 2b^2 = (2k)^2 $$
+
+        Further evaluating we have:
+
+        $$ 2b^2 = 4k^2 $$
+
+        $$ b^2 = 2k^2 $$
+
+        Look at that, we have now shown that $ b^2 $ is even and thus <strong>b</strong> is even.
+
+        We know that <strong>a</strong> and <strong>b</strong> are even, so they have to at least share the common factor 2, but this contradicts
+        the factual statement above where they can't share any common factors. 
+        <br>
+        <br>
+        This means that $\sqrt{2}$ cannot be rational and is in fact irrational.
+
+    </p>
+
+</div>
