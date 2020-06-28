@@ -1,21 +1,79 @@
 ---
 layout: cv
-title: About Jonathan Tan
+title: Jonathan Tan
 ---
 
 <div>
-    <h1>About</h1>
-    <p>Hello! My name is Jonathan Tan, I currently a Software Engineer at Google.
-        I enjoy various things, and I hope to document some of that in this repository.
-        I'm interested in thing like machine learning, distributed systems, and 
-        applying mathematical concepts to problems!
-    </p>
-    
+    <h1>About Me</h1>
+    <p>
+        Hello! My name is Jonathan Tan. I am currently a software engineer at Google
+        in the Global Networks Team.
+        I enjoy various things such as running, building mechanical keyboards, and 
+        learning about different cultures.
 
+        With programming, I'm interested in Distributed Systems and Machine Learning
+        and have worked with creating Microservices Pipelines for ETL workloads on
+        Cisco's Enterprise Data. 
+        
+        In my repository, I hope to document some of the cool interesting things I
+        am learning and also hope it helps people understand some of the topics deeper!
+    </p>
 
     <h1>History</h1>
     <p>
+        <h2>Amazon AWS AI - Deep Learning Engineer</h2>
 
+        My time at Amazon AI involved working on the Deep Learning framework MXNet and Deep Java Library. We 
+        built new features and improved performance of various models such as Bert, Resnet, Machine Translation.
+        
+        <br><br>
+        <tab>
+            <strong>MXNet Benchmarking</strong> - Created a benchmarking system to test commonly used 
+            ML Models run against the master branch of MXNet. This system was built on AWS with S3, EC2,
+            Cloudwatch, Lambda. Through this system, we were able to find bugs and to benchmark upcoming
+            features to ensure the highest quality of code.
+            <br><br>
+            <strong>Large Tensor Support</strong> - Helped developed Large Tensor, a 64 bit version of MXNet.
+            Various operators showed regression when testing this such as the broadcast all ops.
+        </tab>
 
+        <br><br>
+        <tab>
+            <strong>MultiEngine Support</strong> - Implemented a DJL feature that allows the user to switch
+            between MXNet, TensorFlow, PyTorch. or any new deep learning framework
+            for their model inference or training. 
+        </tab>
+        <br><br>
+        <tab>
+            <strong>Blogposts/Tutorials</strong> - Wrote various blogposts covering how to load models
+            into DJL and performce inference and cost comparisons against different hosting 
+            techniques (AWS BeanStalk, EC2, Lambda, Model saved in S3).
+        </tab>
+
+        <h2>Cisco Data Enterprise Services - Software/Data Engineer</h2>
+
+        My time at Cisco involved working mainly on their Data & Analytics Team where they
+        need to ingest customer bookings data from all of Cisco's acquisitions to report to 
+        Wall Street and to give insights to business analysts to better sell Cisco's products.
+
+        <br><br>
+
+        <tab>
+            <strong>Acquisition Data Ingestion Platform</strong> - Created an end to end service for Cisco's 
+            acquisitions to submit the bookings for the week. This included working with the business 
+            to understand different bookings flows (upsell/downsell), further downstream business 
+            systems, and data modeling and design to keep the system scalable for future 
+            acquisitions. This system was built using Java Spring, Openshift, RabbitMQ, 
+            Docker, HBase/MongoDB.
+            <br><br>
+            <strong>TAC Analytics</strong> - Created buckets and ML pipeline to help TAC engineers 
+            figure out and triage RMA requests. This reduced the number of needed RMAs by issuing software 
+            updates.
+            <br><br>
+            <strong>Snowflake Accounts Integration</strong> - Created a platform for engineers to login
+            to a Snowflake account and integrated it with Cisco systems. Helped optimize existing ETL
+            pipelines. This was done by creating APIs with Python Flask and connecting to Snowflake 
+            Databases and Cisco's internal databases.
+        </tab>
     </p>
 </div>
